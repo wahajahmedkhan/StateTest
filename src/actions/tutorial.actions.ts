@@ -1,19 +1,19 @@
-import { Tutorial } from 'src/models/tutorial.model';
+import {Tutorial} from 'src/models/tutorial.model';
 
 export class AddTutorial {
-  static readonly type = '[TUTORIAL] Add'
-  
+  static readonly type = '[TUTORIAL] Add';
+
   constructor(public payload: Tutorial) {
   }
-  
-  
+
+
 }
 
 export class RemoveTutorial {
-  static readonly type = '[TUTORIAL] Remove'
+  static readonly type = '[TUTORIAL] Remove';
 
   constructor(public payload: string) {
-    
+
   }
 
 
